@@ -1,9 +1,9 @@
 #pragma once
+#include <list>
 #include <thread>
 
 class ListGeneration
 {
 public:
-    static void generateList();
-    static void updateProgress(double counte1, int listlength1);
+    static std::list<int> generateList();
 };

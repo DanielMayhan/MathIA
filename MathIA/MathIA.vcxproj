@@ -156,9 +156,11 @@
   <ItemGroup>
     <ClCompile Include="ListGeneration.cpp" />
     <ClCompile Include="MathIA.cpp" />
+    <ClCompile Include="Sorting Algorithms\CPPSort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListGeneration.h" />
+    <ClInclude Include="Sorting Algorithms\CPPSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
