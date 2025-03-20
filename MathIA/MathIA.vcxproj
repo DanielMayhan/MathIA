@@ -154,11 +154,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Functions\Functions.cpp" />
     <ClCompile Include="ListGeneration.cpp" />
     <ClCompile Include="MathIA.cpp" />
     <ClCompile Include="Sorting Algorithms\CPPSort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Functions\Functions.h" />
     <ClInclude Include="ListGeneration.h" />
     <ClInclude Include="Sorting Algorithms\CPPSort.h" />
   </ItemGroup>

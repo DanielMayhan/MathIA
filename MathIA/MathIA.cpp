@@ -1,17 +1,16 @@
 #include <iostream>
 
 #include "ListGeneration.h"
+#include "Functions/Functions.h"
+#include "Sorting Algorithms/CPPSort.h"
 
 using namespace std;
 
 int main()
 {
-    list<int> n = ListGeneration::generateList();
-    for (int num : n)
-    {
-        cout << num << endl;
-    }
-    
+    CPPSort::SortList(ListGeneration::generateList());
+
+
     return 0;
 }
 
