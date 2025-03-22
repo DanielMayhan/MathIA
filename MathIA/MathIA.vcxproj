@@ -157,12 +157,16 @@
     <ClCompile Include="Functions\Functions.cpp" />
     <ClCompile Include="ListGeneration.cpp" />
     <ClCompile Include="MathIA.cpp" />
+    <ClCompile Include="Sorting Algorithms\BubbleSort.cpp" />
     <ClCompile Include="Sorting Algorithms\CPPSort.cpp" />
+    <ClCompile Include="Sorting Algorithms\SelectionSort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Functions\Functions.h" />
     <ClInclude Include="ListGeneration.h" />
+    <ClInclude Include="Sorting Algorithms\BubbleSort.h" />
     <ClInclude Include="Sorting Algorithms\CPPSort.h" />
+    <ClInclude Include="Sorting Algorithms\SelectionSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

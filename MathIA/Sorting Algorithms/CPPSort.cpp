@@ -8,12 +8,10 @@
 
 void CPPSort::SortList(std::list<int> list)
 {
-    std::cout << "Using integrated sorting Algorithm. Time: ";
-
     uint64_t startTime = Functions::getStartingTime();
 
     list.sort();
 
-    std::cout << Functions::getTimeDifference(startTime) << " milliseconds.";
+    std::cout << "Integrated Sort finished: " << Functions::getTimeDifference(startTime) << " ms" << std::endl;
 }
 
