@@ -12,6 +12,6 @@ void CPPSort::SortList(std::list<int> list)
 
     list.sort();
 
-    std::cout << "Integrated Sort finished: " << Functions::getTimeDifference(startTime) << " ms" << std::endl;
+    std::cout << "Integrated Sort finished: " << Functions::getTimeDifference(startTime) << " ms" << '\n';
 }
 

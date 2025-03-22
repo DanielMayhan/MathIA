@@ -33,5 +33,5 @@ void SelectionSort::Sort(std::vector<int>& liste)
         std::swap(liste[i], liste[min_idx]);
     }
     
-    std::cout << "Selection Sort finished in: " << Functions::getTimeDifference(startTime) << " ms" << std::endl;
+    std::cout << "Selection Sort finished in: " << Functions::getTimeDifference(startTime) << " ms" << '\n';
 }

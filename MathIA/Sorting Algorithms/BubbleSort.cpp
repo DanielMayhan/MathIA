@@ -23,5 +23,5 @@ void BubbleSort::Sort(std::vector<int> liste)
             break;
     }
 
-    std::cout << "Bubble Sort finished in: " << Functions::getTimeDifference(startTime) << " ms" << std::endl;
+    std::cout << "Bubble Sort finished in: " << Functions::getTimeDifference(startTime) << " ms" << '\n';
 }

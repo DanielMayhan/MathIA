@@ -28,7 +28,7 @@ int main()
     T_Selection.join();
     T_Bubble.join();
 
-    std::cout << "Total execution time: " << Functions::getTimeDifference(time) << "ms" << std::endl;
-    
+    std::cout << "Total execution time: " << Functions::getTimeDifference(time) << "ms" << '\n';
+    system("pause");
     return 0;
 }
